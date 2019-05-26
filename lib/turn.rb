@@ -43,8 +43,5 @@ end
 
 def turn(board)
   puts "PLease enter 1-9:"
-  num = gets.chomp
-  
-   
-  turn(board)
+  nu
 end
