@@ -41,3 +41,8 @@ def move(board, index, character = "X")
   return board
 end
 
+def turn(board)
+  puts "PLease enter 1-9:"
+  input = gets.chimp().to_i
+  return input
+end
