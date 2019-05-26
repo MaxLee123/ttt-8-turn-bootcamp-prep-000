@@ -43,8 +43,4 @@ end
 
 def turn
   puts "PLease enter 1-9:"
-  number = get.chomp
-  index = input_to_index(number)
-  
-  
-end
+ end
