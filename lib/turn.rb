@@ -43,6 +43,6 @@ end
 
 def turn(board)
   puts "PLease enter 1-9:"
-  input = gets.chimp().to_s
+  input = gets.strip().to_s
   return input
 end
