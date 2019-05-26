@@ -46,4 +46,7 @@ def turn(board)
   number = gets.strip #chomp
   index = input_to_index(number)
   valid_move?(board, index)
+  
+  move(board, index)
+display_board(board)
 end
